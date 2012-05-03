@@ -1,0 +1,22 @@
+{
+    "name": "{{project}}",
+    "author": "{{author}} <{{email}}>",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/dabio/strata-template.git"
+    },
+    "dependencies": {
+        "strata": "0.12.x"
+    },
+    "devDependencies": {
+        "vows": "0.6.x"
+    },
+    "main": "app",
+    "engines": {
+        "node": "0.6.x"
+    },
+    "scripts": {
+        "test": "vows test/*_test.js"
+    }
+}
