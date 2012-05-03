@@ -1,4 +1,7 @@
+.PHONY: test
 test:
 	npm test
 
-.PHONY: test
+.PHONY: deploy
+deploy:
+	git push heroku master
