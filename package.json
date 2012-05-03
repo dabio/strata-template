@@ -19,5 +19,6 @@
     },
     "scripts": {
         "test": "vows test/*_test.js"
-    }
+    },
+    "private": true
 }
