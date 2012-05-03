@@ -1,5 +1,6 @@
 {
     "name": "{{project}}",
+    "description": "{{description}}",
     "author": "{{author}} <{{email}}>",
     "version": "0.0.1",
     "repository": {
