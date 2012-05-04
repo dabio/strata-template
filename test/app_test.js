@@ -1,7 +1,8 @@
-var assert = require("assert"),
-    vows = require("vows"),
-    app = require("./../app")
+var app = require('./../app')
 
-vows.describe("app").addBatch({
-
-}).export(module)
+describe('app', function() {
+    describe('GET /', function() {
+        it('should return status 200')
+        it('should contain this headline')
+    })
+})

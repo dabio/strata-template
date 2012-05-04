@@ -11,14 +11,14 @@
         "strata": "0.12.x"
     },
     "devDependencies": {
-        "vows": "0.6.x"
+        "mocha": "1.x.x"
     },
     "main": "app",
     "engines": {
         "node": "0.6.x"
     },
     "scripts": {
-        "test": "vows test/*_test.js"
+        "test": "mocha"
     },
     "private": true
 }
